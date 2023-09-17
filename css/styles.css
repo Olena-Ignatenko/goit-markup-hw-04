@@ -222,7 +222,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 24px;
+  gap: 16px;
 }
 
 .list-link {
@@ -327,6 +327,14 @@ img {
   width: calc((100% - 48px) / 3);
 }
 
+.footer-container {
+  display: flex;
+}
+
+.footer-logo-wrapper {
+  margin-right: 120px;
+}
+
 .logo-accent-footer {
   color: #f4f4fd;
 }
@@ -334,9 +342,26 @@ img {
 .footer .text {
   color: #f4f4fd;
   max-width: 264px;
+  display: block;
 }
 
 .footer .logo {
   display: inline-block;
   margin-bottom: 16px;
+}
+
+.footer-social-links .link-icon:hover,
+.link-icon:focus {
+  background-color: #31d0aa;
+}
+
+.text-links {
+  color: #fff;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+.footer-social-links .icon:hover,
+.icon:focus {
+  background-color: #31d0aa;
 }
